@@ -11,3 +11,29 @@
   display: flex;
   justify-content: space-between;
 }
+.nav__link {
+  position: relative;
+}
+.nav__notification {
+  background-color: #ff6229;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.nav__dot {
+  background-color: #ff6229;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  display: block;
+}
