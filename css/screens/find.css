@@ -98,3 +98,22 @@
   right: 10px;
   font-size: 12px;
 }
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-post__heart:hover i {
+  will-change: transform;
+  animation: heartBeat 2s linear infinite;
+}

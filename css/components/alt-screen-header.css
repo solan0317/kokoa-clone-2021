@@ -15,3 +15,9 @@
 .alt-header__column:last-child {
   margin-left: auto;
 }
+.alt-header__column:last-child {
+  justify-content: flex-end;
+}
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
