@@ -33,6 +33,7 @@
   weight: 60px;
   height: 60px;
   border-radius: 30%;
+  margin: 0px 10px;
 }
 .friends-screen__channel {
   border-top: 1px solid rgba(0, 0, 0, 0.6);
@@ -42,4 +43,10 @@
 .user-component__time {
   margin-bottom: 6px;
   display: block;
+}
+.user-component__subtitle i {
+  color: red;
+}
+.user-component__column {
+  padding-right: 10px;
 }

@@ -1,18 +1,18 @@
-.find-icons {
+.icon-raw {
   display: flex;
   justify-content: space-between;
   padding-bottom: 15px;
 }
-.find-icons__icon {
+.icon-raw__icon {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.find-icons__icon i {
+.icon-raw__icon i {
   font-size: 25px;
 }
-.find-icons__icon span {
+.icon-raw__icon span {
   margin-top: 10px;
 }
 .recommend {
